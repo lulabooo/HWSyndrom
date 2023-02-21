@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HWSyndrom" />
+        <module name="stat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HWSyndrom" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
